@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            background-color: bisque;
+            height: 50px;
+            text-align: center;
+        }
+        .container > div{
+              align-self: center;
+              width: auto;
+              border: 2px solid black;
+              height: 30px; 
+              letter-spacing: 3px;
+              padding-top: 10px;
+              color: blue;
+              transition-delay: 1ms;
+        }
+
+        .container div:hover{
+            background-color: blue;
+            color: aliceblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">JWELLERS</div>
+        <div class="div1">HOME</div>
+        <div class="div1">ABOUT US</div>
+        <div class="div1">CONTACT</div>
+    </div>
+</body>
+</html>
